@@ -1,0 +1,189 @@
+INFO - 2023-09-11 16:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 16:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 16:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 16:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-11 16:02:34 --> Undefined variable $db
+in APPPATH/Controllers/Admin/EvaluacionController.php on line 159.
+ 1 APPPATH/Controllers/Admin/EvaluacionController.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->comentariosPorDocente()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/public/index.php')
+INFO - 2023-09-11 16:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-11 16:03:01 --> mysqli_sql_exception: Unknown column 'e.comentario' in 'field list' in /media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/app/Controllers/Admin/EvaluacionController.php(163): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->comentariosPorDocente()
+#6 /media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/Commands/Server/rewrite.php(47): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-11 16:03:01 --> Unknown column 'e.comentario' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Admin/EvaluacionController.php(163): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->comentariosPorDocente()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/public/index.php')
+INFO - 2023-09-11 16:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 16:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 16:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 17:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 17:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 17:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 17:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-11 17:13:32 --> syntax error, unexpected variable "$builder"
+in APPPATH/Controllers/Admin/EvaluacionController.php on line 163.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/public/index.php')
+INFO - 2023-09-11 17:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 17:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 17:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 17:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 17:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 17:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-11 17:35:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH/Controllers/Admin/EvaluacionController.php on line 166.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->comentariosPorDocente()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/public/index.php')
+INFO - 2023-09-11 17:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-11 17:35:49 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$get
+in APPPATH/Controllers/Admin/EvaluacionController.php on line 166.
+ 1 APPPATH/Controllers/Admin/EvaluacionController.php(166): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->comentariosPorDocente()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/public/index.php')
+INFO - 2023-09-11 17:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 19:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 19:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 19:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 19:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 19:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-11 19:36:34 --> Invalid file: "admin/evaluacion/cpd.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/EvaluacionController.php(172): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->comentariosPorDocente()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/public/index.php')
+INFO - 2023-09-11 19:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-11 19:37:05 --> syntax error, unexpected token "<"
+in APPPATH/Views/evaluacion/cpd.php on line 53.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/EvaluacionController.php(172): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->comentariosPorDocente()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/public/index.php')
+INFO - 2023-09-11 19:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-11 19:37:22 --> Undefined property: stdClass::$profesor_id
+in APPPATH/Views/evaluacion/cpd.php on line 54.
+ 1 APPPATH/Views/evaluacion/cpd.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/app/Views/evaluacion/cpd.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/EvaluacionController.php(172): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->comentariosPorDocente()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/public/index.php')
+INFO - 2023-09-11 19:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-11 19:37:50 --> Cannot use object of type stdClass as array
+in APPPATH/Views/evaluacion/cpd.php on line 54.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin/EvaluacionController.php(172): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->comentariosPorDocente()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/public/index.php')
+INFO - 2023-09-11 19:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-11 19:39:03 --> Cannot use object of type stdClass as array
+in APPPATH/Views/evaluacion/cpd.php on line 54.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin/EvaluacionController.php(172): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->comentariosPorDocente()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/public/index.php')
+INFO - 2023-09-11 19:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-11 19:40:09 --> Undefined property: stdClass::$evaluacion
+in APPPATH/Views/evaluacion/cpd.php on line 54.
+ 1 APPPATH/Views/evaluacion/cpd.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/app/Views/evaluacion/cpd.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/EvaluacionController.php(172): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->comentariosPorDocente()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/public/index.php')
+INFO - 2023-09-11 19:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 19:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 19:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 19:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 19:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-11 19:43:49 --> Undefined property: stdClass::$profesor
+in APPPATH/Views/evaluacion/cpd.php on line 37.
+ 1 APPPATH/Views/evaluacion/cpd.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/app/Views/evaluacion/cpd.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/EvaluacionController.php(172): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->comentariosPorDocente()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/public/index.php')
+INFO - 2023-09-11 19:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-11 19:43:59 --> Undefined property: stdClass::$profesor
+in APPPATH/Views/evaluacion/cpd.php on line 37.
+ 1 APPPATH/Views/evaluacion/cpd.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/app/Views/evaluacion/cpd.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/EvaluacionController.php(172): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->comentariosPorDocente()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/media/degante/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/public/index.php')
+INFO - 2023-09-11 19:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 20:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 20:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 20:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-11 21:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

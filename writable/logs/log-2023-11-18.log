@@ -1,0 +1,14 @@
+INFO - 2023-11-18 00:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-18 00:03:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EvaluacionController::$session is deprecated in APPPATH/Controllers/Admin/EvaluacionController.php on line 1015.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->gracias()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/dev/upn212evaldoc/public/index.php')
+INFO - 2023-11-18 00:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-18 00:03:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EvaluacionController::$session is deprecated in APPPATH/Controllers/Admin/EvaluacionController.php on line 1015.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->gracias()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/dev/upn212evaldoc/public/index.php')

@@ -1,0 +1,28 @@
+CRITICAL - 2023-09-01 23:35:11 --> La extensión mbstring no está cargada.
+in SYSTEMPATH/CodeIgniter.php on line 226.
+ 1 SYSTEMPATH/CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+ 2 SYSTEMPATH/CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH/spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-01 23:35:11 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /media/usrx/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/CLI/CLI.php:872
+Stack trace:
+#0 /media/usrx/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /media/usrx/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/CLI/CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 /media/usrx/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/Autoloader/Autoloader.php(312): include_once('...')
+#3 /media/usrx/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /media/usrx/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 /media/usrx/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/app/Views/errors/cli/error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /media/usrx/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/Debug/Exceptions.php(282): include('...')
+#7 /media/usrx/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/Debug/Exceptions.php(285): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 /media/usrx/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/Debug/Exceptions.php(156): CodeIgniter\Debug\Exceptions->render()
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#10 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+La extensión mbstring no está cargada.
+#0 /media/usrx/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /media/usrx/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/system/CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /media/usrx/DEVELOPMENT/development/Proyectos/UPN212TEZ/evaldoc_linux/spark(83): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH/CLI/CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

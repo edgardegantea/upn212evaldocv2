@@ -1,0 +1,522 @@
+INFO - 2023-09-17 00:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 00:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 00:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 00:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 00:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 00:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-17 00:38:58 --> syntax error, unexpected identifier "UPN212TEZ", expecting ")"
+in APPPATH\Controllers\Admin\EvaluacionController.php on line 1565.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Controllers\\Admin\\EvaluacionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\EvaluacionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\EvaluacionController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin\\EvaluacionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 00:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 00:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 00:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-17 00:39:31 --> syntax error, unexpected identifier "UPN212TEZ", expecting ")"
+in APPPATH\Controllers\Admin\EvaluacionController.php on line 1565.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Controllers\\Admin\\EvaluacionController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\EvaluacionController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\EvaluacionController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Admin\\EvaluacionController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 00:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 00:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 00:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 00:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 00:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 00:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 00:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 09:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 09:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 09:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 09:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 09:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-17 09:52:12 --> Undefined array key "action"
+in APPPATH\Controllers\Admin\EvaluacionController.php on line 1602.
+ 1 APPPATH\Controllers\Admin\EvaluacionController.php(1602): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action"', 'E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Controllers\\Admin\\EvaluacionController.php', 1602)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->otropdf()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 10:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 10:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 10:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 10:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 10:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-17 10:26:36 --> Undefined array key "thead"
+in APPPATH\ThirdParty\TCPDF\tcpdf.php on line 16654.
+ 1 APPPATH\ThirdParty\TCPDF\tcpdf.php(16654): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thead"', 'E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\ThirdParty\\TCPDF\\tcpdf.php', 16654)
+ 2 APPPATH\ThirdParty\TCPDF\tcpdf.php(17366): TCPDF->getHtmlDomArray('<tr><td align="center" height="15" width="10%">&nbsp;DIM08<marker style="font-size:0"/></td><td height="15" width="60%">&nbsp;Asistencia y puntualidad<marker style="font-size:0"/></td><td align="center" height="14" width="10%">&nbsp;4.17<marker style="font-size:0"/></td><td height="15" width="*"><marker style="font-size:0"/></td></tr></table>')
+ 3 APPPATH\Controllers\Admin\EvaluacionController.php(1468): TCPDF->writeHTML('<tr><td align="center" height="15" width="10%"> DIM08</td><td height="15" width="60%"> Asistencia y puntualidad</td><td align="center" height="14" width="10%"> 4.17</td><td height="15" width="*"></td></tr></table>', true, false, true, false, 'M')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 10:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 10:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-17 12:55:36 --> Class "App\Controllers\Admin\PDF_TABLE" not found
+in APPPATH\Controllers\Admin\EvaluacionController.php on line 1538.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 12:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 12:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-17 13:30:23 --> Undefined variable $fechaActual
+in APPPATH\Controllers\Admin\EvaluacionController.php on line 1631.
+ 1 APPPATH\Controllers\Admin\EvaluacionController.php(1631): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fechaActual', 'E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Controllers\\Admin\\EvaluacionController.php', 1631)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 13:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:33:14 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1627.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:35:07 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1628.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:35:52 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1628.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:36:48 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1628.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:40:25 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1629.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:43:35 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:44:20 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:47:41 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:49:28 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:50:28 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:51:02 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:51:48 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:52:10 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('36')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:52:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('43')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:54:04 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('46')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:54:39 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('40')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:54:55 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('40')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:55:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('45')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:56:10 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('52')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 13:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 13:56:29 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('61')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:32:48 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('61')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:34:06 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('61')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:34:20 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('60')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:35:08 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('60')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:35:25 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:35:47 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('2')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:36:04 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1409.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:39:39 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+CRITICAL - 2023-09-17 14:39:39 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Admin\EvaluacionController.php on line 1508.
+ 1 APPPATH\Controllers\Admin\EvaluacionController.php(1508): number_format('BUENO', 2)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:43:09 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:43:41 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:44:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:44:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('2')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:46:09 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+CRITICAL - 2023-09-17 14:46:09 --> Uninitialized string offset 0
+in APPPATH\ThirdParty\TCPDF\tcpdf.php on line 16841.
+ 1 APPPATH\ThirdParty\TCPDF\tcpdf.php(16841): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 0', 'E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\ThirdParty\\TCPDF\\tcpdf.php', 16841)
+ 2 APPPATH\ThirdParty\TCPDF\tcpdf.php(17366): TCPDF->getHtmlDomArray('<table border="1" width="100%"><tr scope="row" style="text-align:center; vertical-align: middle; background-color: #dddddd;"><th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="10%">ID<marker style="font-size:0"/></th><th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="60%">Dimensión<marker style="font-size:0"/></th><th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="10%">Resultado<marker style="font-size:0"/></th><th style="vertical-align: middle; text-align: ; font-weight: bold" height="25" width="*">Nivel<marker style="font-size:0"/></th></tr><tr><td align="center" height="15" width="10%">&nbsp;DIM01<marker style="font-size:0"/></td><td height="15" width="60%">&nbsp;Dominio de la temática<marker style="font-size:0"/></td><td align="center" height="14" width="10%">&nbsp;4.18<marker style="font-size:0"/></td><td height="15" width="*">&nbsp;BUENO<marker style="font-size:0"/></td></tr><tr><td align="center" height="15" width="10%">&nbsp;DIM02<marker style="font-size:0"/></td><td height="15" width="60%">&nbsp;Actitud de Atención hacia el estudiante<marker style="font-size:0"/></td><td align="center" height="14" width="10%">&nbsp;4.12<marker style="font-size:0"/></td><td height="15" width="*">&nbsp;BUENO<marker style="font-size:0"/></td></tr><tr><td align="center" height="15" width="10%">&nbsp;DIM03<marker style="font-size:0"/></td><td height="15" width="60%">&nbsp;Promoción de la participación y el aprendizaje<marker style="font-size:0"/></td><td align="center" height="14" width="10%">&nbsp;4.11<marker style="font-size:0"/></td><td height="15" width="*">&nbsp;BUENO<marker style="font-size:0"/></td></tr><tr><td align="center" height="15" width="10%">&nbsp;DIM04<marker style="font-size:0"/></td><td height="15" width="60%">&nbsp;Formación integral<marker style="font-size:0"/></td><td align="center" height="14" width="10%">&nbsp;4.13<marker style="font-size:0"/></td><td height="15" width="*">&nbsp;BUENO<marker style="font-size:0"/></td></tr><tr><td align="center" height="15" width="10%">&nbsp;DIM05<marker style="font-size:0"/></td><td height="15" width="60%">&nbsp;Planeación y organización<marker style="font-size:0"/></td><td align="center" height="14" width="10%">&nbsp;4.16<marker style="font-size:0"/></td><td height="15" width="*">&nbsp;BUENO<marker style="font-size:0"/></td></tr><tr><td align="center" height="15" width="10%">&nbsp;DIM06<marker style="font-size:0"/></td><td height="15" width="60%">&nbsp;Evaluación del aprendizaje<marker style="font-size:0"/></td><td align="center" height="14" width="10%">&nbsp;3.72<marker style="font-size:0"/></td><td height="15" width="*">&nbsp;REGULAR<marker style="font-size:0"/></td></tr><tr><td align="center" height="15" width="10%">&nbsp;DIM07<marker style="font-size:0"/></td><td height="15" width="60%">&nbsp;Acreditación del aprendizaje<marker style="font-size:0"/></td><td align="center" height="14" width="10%">&nbsp;4.07<marker style="font-size:0"/></td><td height="15" width="*">&nbsp;BUENO<marker style="font-size:0"/></td></tr><tr><td align="center" height="15" width="10%">&nbsp;DIM08<marker style="font-size:0"/></td><td height="15" width="60%">&nbsp;Asistencia y puntualidad<marker style="font-size:0"/></td><td align="center" height="14" width="10%">&nbsp;4.17<marker style="font-size:0"/></td><td height="15" width="*">&nbsp;BUENO<marker style="font-size:0"/></td></tr></table>')
+ 3 APPPATH\Controllers\Admin\EvaluacionController.php(1517): TCPDF->writeHTML('<table border="1" width="100%">
+                    <tr scope="row" style="text-align:center; vertical-align: middle; background-color: #dddddd;">
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="10%">ID</th>
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="60%">Dimensión</th>
+                        <th style="vertical-align: middle; text-align:center; font-weight: bold" height="25" width="10%">Resultado</th>
+                        <th style="vertical-align: middle; text-align: ; font-weight: bold" height="25" width="*">Nivel</th>
+                    </tr><tr><td align="center" height="15" width="10%"> DIM01</td><td height="15" width="60%"> Dominio de la temática</td><td align="center" height="14" width="10%"> 4.18</td><td height="15" width="*"> BUENO</td></tr><tr><td align="center" height="15" width="10%"> DIM02</td><td height="15" width="60%"> Actitud de Atención hacia el estudiante</td><td align="center" height="14" width="10%"> 4.12</td><td height="15" width="*"> BUENO</td></tr><tr><td align="center" height="15" width="10%"> DIM03</td><td height="15" width="60%"> Promoción de la participación y el aprendizaje</td><td align="center" height="14" width="10%"> 4.11</td><td height="15" width="*"> BUENO</td></tr><tr><td align="center" height="15" width="10%"> DIM04</td><td height="15" width="60%"> Formación integral</td><td align="center" height="14" width="10%"> 4.13</td><td height="15" width="*"> BUENO</td></tr><tr><td align="center" height="15" width="10%"> DIM05</td><td height="15" width="60%"> Planeación y organización</td><td align="center" height="14" width="10%"> 4.16</td><td height="15" width="*"> BUENO</td></tr><tr><td align="center" height="15" width="10%"> DIM06</td><td height="15" width="60%"> Evaluación del aprendizaje</td><td align="center" height="14" width="10%"> 3.72</td><td height="15" width="*"> REGULAR</td></tr><tr><td align="center" height="15" width="10%"> DIM07</td><td height="15" width="60%"> Acreditación del aprendizaje</td><td align="center" height="14" width="10%"> 4.07</td><td height="15" width="*"> BUENO</td></tr><tr><td align="center" height="15" width="10%"> DIM08</td><td height="15" width="60%"> Asistencia y puntualidad</td><td align="center" height="14" width="10%"> 4.17</td><td height="15" width="*"> BUENO</td></tr></table>', true, false, true, false, 'M')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:46:22 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:46:59 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:47:35 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:48:02 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:48:52 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:49:11 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:49:43 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:49:57 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('2')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:53:03 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:53:39 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 14:53:48 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('2')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 14:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 15:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 15:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 15:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-17 15:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 15:09:06 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 15:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 15:09:26 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('2')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 15:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 15:10:36 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('2')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 15:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 15:11:01 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('2')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 15:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 15:32:43 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 15:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 15:33:42 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-17 15:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-17 15:36:27 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Admin\EvaluacionController.php on line 1428.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')

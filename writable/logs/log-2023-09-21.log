@@ -1,0 +1,209 @@
+INFO - 2023-09-21 08:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 08:37:26 --> Call to undefined function App\Controllers\Admin\distict()
+in APPPATH\Controllers\Admin\EvaluacionController.php on line 1690.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->todosDocentes()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-21 08:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 08:37:36 --> Call to undefined function App\Controllers\Admin\distinct()
+in APPPATH\Controllers\Admin\EvaluacionController.php on line 1690.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->todosDocentes()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-21 08:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-21 08:40:13 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DISTINC...', 0)
+#1 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\app\Controllers\Admin\EvaluacionController.php(1703): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->todosDocentes()
+#6 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+#7 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Server\rewrite.php(47): require_once('E:\\development\\...')
+#10 {main}
+CRITICAL - 2023-09-21 08:40:13 --> Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DISTINCT` `profesor_id`
+FROM `evaluacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `profesor_id`
+FROM `evaluacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `profesor_id`
+FROM `evaluacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `profesor_id`
+FROM `evaluacion`', [], false)
+ 5 APPPATH\Controllers\Admin\EvaluacionController.php(1703): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->todosDocentes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-21 08:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 08:48:57 --> Call to undefined method TCPDF::setPaper()
+in APPPATH\Controllers\Admin\EvaluacionController.php on line 1693.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->tde()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-21 08:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 08:50:38 --> Call to undefined method TCPDF::setPaper()
+in APPPATH\Controllers\Admin\EvaluacionController.php on line 1693.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->tde()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-21 08:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-21 08:51:48 --> mysqli_sql_exception: Table 'upn212evaldoc.evaluaciones' doesn't exist in E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DISTINC...', 0)
+#1 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\app\Controllers\Admin\EvaluacionController.php(1706): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->tde()
+#6 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+#7 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Server\rewrite.php(47): require_once('E:\\development\\...')
+#10 {main}
+CRITICAL - 2023-09-21 08:51:48 --> Table 'upn212evaldoc.evaluaciones' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DISTINCT` `profesor_id`
+FROM `evaluaciones`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `profesor_id`
+FROM `evaluaciones`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `profesor_id`
+FROM `evaluaciones`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `profesor_id`
+FROM `evaluaciones`', [], false)
+ 5 APPPATH\Controllers\Admin\EvaluacionController.php(1706): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->tde()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-21 08:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-21 08:51:59 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DISTINC...', 0)
+#1 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\app\Controllers\Admin\EvaluacionController.php(1706): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->tde()
+#6 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+#7 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Server\rewrite.php(47): require_once('E:\\development\\...')
+#10 {main}
+CRITICAL - 2023-09-21 08:51:59 --> Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DISTINCT` `profesor_id`
+FROM `evaluacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `profesor_id`
+FROM `evaluacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `profesor_id`
+FROM `evaluacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `profesor_id`
+FROM `evaluacion`', [], false)
+ 5 APPPATH\Controllers\Admin\EvaluacionController.php(1706): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->tde()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-21 08:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-21 08:52:19 --> mysqli_sql_exception: Unknown column 'profesores.nombre' in 'field list' in E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT DISTINCT...', 0)
+#1 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\app\Controllers\Admin\EvaluacionController.php(1706): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->tde()
+#6 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+#7 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Server\rewrite.php(47): require_once('E:\\development\\...')
+#10 {main}
+CRITICAL - 2023-09-21 08:52:19 --> Unknown column 'profesores.nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT DISTINCT(profesores.nombre)
+FROM `evaluacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT(profesores.nombre)
+FROM `evaluacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT(profesores.nombre)
+FROM `evaluacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT(profesores.nombre)
+FROM `evaluacion`', [], false)
+ 5 APPPATH\Controllers\Admin\EvaluacionController.php(1706): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->tde()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-21 08:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 08:53:03 --> Undefined property: stdClass::$profesor_id
+in APPPATH\Controllers\Admin\EvaluacionController.php on line 1722.
+ 1 APPPATH\Controllers\Admin\EvaluacionController.php(1722): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$profesor_id', 'E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Controllers\\Admin\\EvaluacionController.php', 1722)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->tde()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-09-21 08:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 09:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

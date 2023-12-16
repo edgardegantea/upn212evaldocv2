@@ -1,0 +1,1073 @@
+ERROR - 2023-08-04 00:09:04 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`evaldoc_linux`.`profesores`, CONSTRAINT `profesores_area_foreign` FOREIGN KEY (`area`) REFERENCES `areas` (`id`)) in D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#6 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\BaseModel.php(874): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#7 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\app\Database\Seeds\Profesor.php(14): CodeIgniter\BaseModel->insertBatch(Array)
+#8 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\Seeder.php(146): App\Database\Seeds\Profesor->run()
+#9 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+INFO - 2023-08-04 00:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 00:27:59 --> Archivo inválido: profesorasignatura/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profesorasignatura/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profesorasignatura/index', [], true)
+ 3 APPPATH\Controllers\Admin\ProfesorAsignaturaController.php(27): view('profesorasignatura/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\ProfesorAsignaturaController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ProfesorAsignaturaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 00:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 00:28:37 --> Class "App\Models\ProfesorAsignatura" not found
+in APPPATH\Controllers\Admin\ProfesorAsignaturaController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\ProfesorAsignaturaController->guardarAsignacion()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ProfesorAsignaturaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 00:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 00:28:54 --> Class "App\Controllers\Admin\ProfesorAsignatura" not found
+in APPPATH\Controllers\Admin\ProfesorAsignaturaController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\ProfesorAsignaturaController->guardarAsignacion()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ProfesorAsignaturaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 00:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 00:29:20 --> Class "App\Controllers\Admin\ProfesorAsignatura" not found
+in APPPATH\Controllers\Admin\ProfesorAsignaturaController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\ProfesorAsignaturaController->guardarAsignacion()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ProfesorAsignaturaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 00:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 00:33:15 --> Class "App\Controllers\Admin\ProfesorAsignatura" not found
+in APPPATH\Controllers\Admin\ProfesorAsignaturaController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\ProfesorAsignaturaController->guardarAsignacion()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ProfesorAsignaturaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 00:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 00:34:57 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Admin\ProfesorAsignaturaController.php on line 48.
+ 1 APPPATH\Controllers\Admin\ProfesorAsignaturaController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Controllers\\Admin\\ProfesorAsignaturaController.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\ProfesorAsignaturaController->guardarAsignacion()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ProfesorAsignaturaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 00:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 00:35:18 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Admin\ProfesorAsignaturaController.php on line 48.
+ 1 APPPATH\Controllers\Admin\ProfesorAsignaturaController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Controllers\\Admin\\ProfesorAsignaturaController.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\ProfesorAsignaturaController->guardarAsignacion()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ProfesorAsignaturaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 00:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 00:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 01:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 01:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 01:15:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EstudianteController::$session is deprecated in APPPATH\Controllers\Admin\EstudianteController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\EstudianteController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 01:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 01:16:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EstudianteController::$session is deprecated in APPPATH\Controllers\Admin\EstudianteController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\EstudianteController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 01:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 01:17:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 01:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 01:17:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EstudianteController::$session is deprecated in APPPATH\Controllers\Admin\EstudianteController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\EstudianteController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 01:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 01:17:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EstudianteController::$session is deprecated in APPPATH\Controllers\Admin\EstudianteController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\EstudianteController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+CRITICAL - 2023-08-04 01:17:20 --> Undefined variable $usuario
+in APPPATH\Views\admin\estudiantes\show.php on line 18.
+ 1 APPPATH\Views\admin\estudiantes\show.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\admin\\estudiantes\\show.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\admin\\estudiantes\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/estudiantes/show', [], true)
+ 5 APPPATH\Controllers\Admin\EstudianteController.php(44): view('admin/estudiantes/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EstudianteController->show('36')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EstudianteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 01:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 01:17:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EstudianteController::$session is deprecated in APPPATH\Controllers\Admin\EstudianteController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\EstudianteController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 01:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 01:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 01:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 01:19:41 --> Undefined variable $estudiantes
+in APPPATH\Views\admin\estudianteasignatura\index.php on line 14.
+ 1 APPPATH\Views\admin\estudianteasignatura\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estudiantes', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\admin\\estudianteasignatura\\index.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\admin\\estudianteasignatura\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/estudianteasignatura/index', [], true)
+ 5 APPPATH\Controllers\Admin\EstudianteAsignaturaController.php(22): view('admin/estudianteasignatura/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EstudianteAsignaturaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EstudianteAsignaturaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 01:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 01:23:38 --> Undefined variable $estudiantes
+in APPPATH\Views\admin\estudianteasignatura\index.php on line 14.
+ 1 APPPATH\Views\admin\estudianteasignatura\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estudiantes', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\admin\\estudianteasignatura\\index.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\admin\\estudianteasignatura\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/estudianteasignatura/index', [], true)
+ 5 APPPATH\Controllers\Admin\EstudianteAsignaturaController.php(22): view('admin/estudianteasignatura/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EstudianteAsignaturaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EstudianteAsignaturaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 01:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 01:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-04 01:25:35 --> mysqli_sql_exception: Table 'evaldoc_linux.estudianteasignatura' doesn't exist in D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `es...', 0)
+#1 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `es...')
+#2 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `es...')
+#3 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `es...', Array, false)
+#4 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\app\Controllers\Admin\EstudianteAsignaturaController.php(40): CodeIgniter\BaseModel->delete()
+#7 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(934): App\Controllers\Admin\EstudianteAsignaturaController->guardarAsignacion()
+#8 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EstudianteAsignaturaController))
+#9 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Server\rewrite.php(47): require_once('D:\\development\\...')
+#12 {main}
+CRITICAL - 2023-08-04 01:25:35 --> Table 'evaldoc_linux.estudianteasignatura' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `estudianteasignatura`
+WHERE `estudiante` = \'7\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `estudianteasignatura`
+WHERE `estudiante` = \'7\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `estudianteasignatura`
+WHERE `estudiante` = \'7\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `estudianteasignatura`
+WHERE `estudiante` = :estudiante:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Admin\EstudianteAsignaturaController.php(40): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EstudianteAsignaturaController->guardarAsignacion()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EstudianteAsignaturaController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 01:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 02:04:30 --> Undefined constant "App\Controllers\Admin\id"
+in APPPATH\Controllers\Admin\PreguntasEvalController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 02:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 02:06:51 --> Undefined array key "estudiante"
+in APPPATH\Controllers\Admin\PreguntasEvalController.php on line 48.
+ 1 APPPATH\Controllers\Admin\PreguntasEvalController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estudiante"', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Controllers\\Admin\\PreguntasEvalController.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 02:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 02:07:05 --> Cannot use [] for reading
+in APPPATH\Controllers\Admin\PreguntasEvalController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 02:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 02:09:07 --> Cannot access offset of type string on string
+in APPPATH\Views\evaluacion\ea.php on line 15.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('evaluacion/ea', [], true)
+ 4 APPPATH\Controllers\Admin\PreguntasEvalController.php(55): view('evaluacion/ea', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 02:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 02:09:25 --> Undefined array key "nombre"
+in APPPATH\Views\evaluacion\ea.php on line 15.
+ 1 APPPATH\Views\evaluacion\ea.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\evaluacion\\ea.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\evaluacion\\ea.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('evaluacion/ea', [], true)
+ 5 APPPATH\Controllers\Admin\PreguntasEvalController.php(55): view('evaluacion/ea', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 02:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 02:10:03 --> Undefined array key "clave"
+in APPPATH\Views\evaluacion\ea.php on line 15.
+ 1 APPPATH\Views\evaluacion\ea.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "clave"', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\evaluacion\\ea.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\evaluacion\\ea.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('evaluacion/ea', [], true)
+ 5 APPPATH\Controllers\Admin\PreguntasEvalController.php(55): view('evaluacion/ea', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 02:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 02:10:56 --> Undefined array key "nombre"
+in APPPATH\Views\evaluacion\ea.php on line 15.
+ 1 APPPATH\Views\evaluacion\ea.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\evaluacion\\ea.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\evaluacion\\ea.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('evaluacion/ea', [], true)
+ 5 APPPATH\Controllers\Admin\PreguntasEvalController.php(55): view('evaluacion/ea', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 02:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 02:13:06 --> Cannot access offset of type string on string
+in APPPATH\Views\evaluacion\ea.php on line 15.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('evaluacion/ea', [], true)
+ 4 APPPATH\Controllers\Admin\PreguntasEvalController.php(55): view('evaluacion/ea', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 02:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 02:15:33 --> Undefined array key "nombre"
+in APPPATH\Views\evaluacion\ea.php on line 15.
+ 1 APPPATH\Views\evaluacion\ea.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\evaluacion\\ea.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\evaluacion\\ea.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('evaluacion/ea', [], true)
+ 5 APPPATH\Controllers\Admin\PreguntasEvalController.php(55): view('evaluacion/ea', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 02:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 02:15:43 --> Undefined array key "clave"
+in APPPATH\Views\evaluacion\ea.php on line 15.
+ 1 APPPATH\Views\evaluacion\ea.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "clave"', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\evaluacion\\ea.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\evaluacion\\ea.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('evaluacion/ea', [], true)
+ 5 APPPATH\Controllers\Admin\PreguntasEvalController.php(55): view('evaluacion/ea', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 02:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 02:19:15 --> Undefined array key "nombre"
+in APPPATH\Views\evaluacion\ea.php on line 15.
+ 1 APPPATH\Views\evaluacion\ea.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\evaluacion\\ea.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\evaluacion\\ea.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('evaluacion/ea', [], true)
+ 5 APPPATH\Controllers\Admin\PreguntasEvalController.php(55): view('evaluacion/ea', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 02:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 02:58:40 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Admin\EstudianteAsignaturaController.php on line 43.
+ 1 APPPATH\Controllers\Admin\EstudianteAsignaturaController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Controllers\\Admin\\EstudianteAsignaturaController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EstudianteAsignaturaController->guardarAsignacion()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EstudianteAsignaturaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 02:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 02:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 02:59:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:00:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:00:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:00:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EstudianteController::$session is deprecated in APPPATH\Controllers\Admin\EstudianteController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\EstudianteController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:07:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+CRITICAL - 2023-08-04 03:07:11 --> Undefined property: App\Controllers\Admin\AsignaturaController::$db
+in APPPATH\Controllers\Admin\AsignaturaController.php on line 165.
+ 1 APPPATH\Controllers\Admin\AsignaturaController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\AsignaturaController::$db', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Controllers\\Admin\\AsignaturaController.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\AsignaturaController->prueba()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AsignaturaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:09:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$asignatura is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+WARNING - 2023-08-04 03:09:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:11:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$asignatura is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+WARNING - 2023-08-04 03:11:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:15:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$asignatura is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+WARNING - 2023-08-04 03:15:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:15:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$asignatura is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+WARNING - 2023-08-04 03:15:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:17:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$asignatura is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+WARNING - 2023-08-04 03:17:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:18:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$asignatura is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+WARNING - 2023-08-04 03:18:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:19:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:19:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:19:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:19:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EstudianteController::$session is deprecated in APPPATH\Controllers\Admin\EstudianteController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\EstudianteController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:25:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PreguntasEvalController::$session is deprecated in APPPATH\Controllers\Admin\PreguntasEvalController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+CRITICAL - 2023-08-04 03:25:58 --> Undefined property: App\Controllers\Admin\PreguntasEvalController::$db
+in APPPATH\Controllers\Admin\PreguntasEvalController.php on line 50.
+ 1 APPPATH\Controllers\Admin\PreguntasEvalController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\PreguntasEvalController::$db', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Controllers\\Admin\\PreguntasEvalController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:26:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PreguntasEvalController::$session is deprecated in APPPATH\Controllers\Admin\PreguntasEvalController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\PreguntasEvalController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+ERROR - 2023-08-04 03:26:52 --> mysqli_sql_exception: Unknown column 'a.estudiante' in 'on clause' in D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*\nFR...', 0)
+#1 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*\nFR...')
+#2 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*\nFR...')
+#3 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*\nFR...', Array, false)
+#4 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\app\Controllers\Admin\PreguntasEvalController.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+#6 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+#7 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Server\rewrite.php(47): require_once('D:\\development\\...')
+#10 {main}
+CRITICAL - 2023-08-04 03:26:52 --> Unknown column 'a.estudiante' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*
+FROM `asignaturas` as `a`
+JOIN `usuarios` as `u` ON `u`.`id` = `a`.`estudiante`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*
+FROM `asignaturas` as `a`
+JOIN `usuarios` as `u` ON `u`.`id` = `a`.`estudiante`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*
+FROM `asignaturas` as `a`
+JOIN `usuarios` as `u` ON `u`.`id` = `a`.`estudiante`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*
+FROM `asignaturas` as `a`
+JOIN `usuarios` as `u` ON `u`.`id` = `a`.`estudiante`', [], false)
+ 5 APPPATH\Controllers\Admin\PreguntasEvalController.php(64): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:27:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PreguntasEvalController::$session is deprecated in APPPATH\Controllers\Admin\PreguntasEvalController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\PreguntasEvalController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:28:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PreguntasEvalController::$session is deprecated in APPPATH\Controllers\Admin\PreguntasEvalController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\PreguntasEvalController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+ERROR - 2023-08-04 03:28:20 --> mysqli_sql_exception: Unknown column 'u.id' in 'on clause' in D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*\nFR...', 0)
+#1 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*\nFR...')
+#2 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*\nFR...')
+#3 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*\nFR...', Array, false)
+#4 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\app\Controllers\Admin\PreguntasEvalController.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+#6 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+#7 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Server\rewrite.php(47): require_once('D:\\development\\...')
+#10 {main}
+CRITICAL - 2023-08-04 03:28:20 --> Unknown column 'u.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*
+FROM `asignaturas` as `a`
+JOIN `preguntaseval` as `p` ON `u`.`id` = `p`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*
+FROM `asignaturas` as `a`
+JOIN `preguntaseval` as `p` ON `u`.`id` = `p`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*
+FROM `asignaturas` as `a`
+JOIN `preguntaseval` as `p` ON `u`.`id` = `p`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*
+FROM `asignaturas` as `a`
+JOIN `preguntaseval` as `p` ON `u`.`id` = `p`.`id`', [], false)
+ 5 APPPATH\Controllers\Admin\PreguntasEvalController.php(64): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\PreguntasEvalController->cargarAsignaturasPorEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PreguntasEvalController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 03:28:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PreguntasEvalController::$session is deprecated in APPPATH\Controllers\Admin\PreguntasEvalController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\PreguntasEvalController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 03:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 03:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 04:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 04:07:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\PreguntasEvalController::$session is deprecated in APPPATH\Controllers\Admin\PreguntasEvalController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\PreguntasEvalController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 04:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 04:08:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$asignatura is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+WARNING - 2023-08-04 04:08:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\AsignaturaController::$session is deprecated in APPPATH\Controllers\Admin\AsignaturaController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\AsignaturaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+ERROR - 2023-08-04 04:08:38 --> mysqli_sql_exception: Not unique table/alias: 'a' in D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `...', 0)
+#1 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\app\Controllers\Admin\AsignaturaController.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(934): App\Controllers\Admin\AsignaturaController->prueba2()
+#6 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AsignaturaController))
+#7 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Server\rewrite.php(47): require_once('D:\\development\\...')
+#10 {main}
+CRITICAL - 2023-08-04 04:08:38 --> Not unique table/alias: 'a'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `u`.`nombre`
+FROM `asignaturas` as `a`
+JOIN `users` as `user` ON `t`.`usuario` = `user`.`id`
+JOIN `areas` as `a` ON `user`.`area` = `a`.`id`
+JOIN `status` ON `t`.`status` = `status`.`id`
+WHERE `usuario` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `u`.`nombre`
+FROM `asignaturas` as `a`
+JOIN `users` as `user` ON `t`.`usuario` = `user`.`id`
+JOIN `areas` as `a` ON `user`.`area` = `a`.`id`
+JOIN `status` ON `t`.`status` = `status`.`id`
+WHERE `usuario` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `u`.`nombre`
+FROM `asignaturas` as `a`
+JOIN `users` as `user` ON `t`.`usuario` = `user`.`id`
+JOIN `areas` as `a` ON `user`.`area` = `a`.`id`
+JOIN `status` ON `t`.`status` = `status`.`id`
+WHERE `usuario` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `u`.`nombre`
+FROM `asignaturas` as `a`
+JOIN `users` as `user` ON `t`.`usuario` = `user`.`id`
+JOIN `areas` as `a` ON `user`.`area` = `a`.`id`
+JOIN `status` ON `t`.`status` = `status`.`id`
+WHERE `usuario` = :usuario:', [...], false)
+ 5 APPPATH\Controllers\Admin\AsignaturaController.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\AsignaturaController->prueba2()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AsignaturaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+ERROR - 2023-08-04 04:10:24 --> mysqli_sql_exception: Can't create table `evaldoc_linux`.`preguntaseval` (errno: 150 "Foreign key constraint is incorrectly formed") in D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\app\Database\Migrations\2023-08-03-210442_Preguntaseval.php(49): CodeIgniter\Database\Forge->createTable('preguntaseval', true)
+#5 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MigrationRunner.php(877): App\Database\Migrations\Preguntaseval->up()
+#6 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+INFO - 2023-08-04 05:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 05:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 05:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 05:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 05:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 05:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 05:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 05:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 05:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 05:59:43 --> Archivo inválido: formulario.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('formulario', [], true)
+ 3 APPPATH\Controllers\Admin\EvaluacionController.php(19): view('formulario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->mostrarFormulario()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 06:00:05 --> Undefined array key "texto"
+in APPPATH\Views\evaluacion\formulario.php on line 18.
+ 1 APPPATH\Views\evaluacion\formulario.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "texto"', 'D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\evaluacion\\formulario.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\app\\Views\\evaluacion\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('evaluacion/formulario', [], true)
+ 5 APPPATH\Controllers\Admin\EvaluacionController.php(19): view('evaluacion/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->mostrarFormulario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 06:22:03 --> Class "App\Controllers\Admin\EvaluacionModel" not found
+in APPPATH\Controllers\Admin\EvaluacionController.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->enviar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-04 06:22:54 --> mysqli_sql_exception: Table 'evaldoc_linux.evaluaciones' doesn't exist in D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ev...', 0)
+#1 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\app\Controllers\Admin\EvaluacionController.php(41): CodeIgniter\BaseModel->save(Array)
+#9 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->enviar()
+#10 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+#11 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Server\rewrite.php(47): require_once('D:\\development\\...')
+#14 {main}
+CRITICAL - 2023-08-04 06:22:54 --> Table 'evaldoc_linux.evaluaciones' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `evaluaciones` (`asignatura_id`, `respuestas`, `comentario`, `created_at`, `updated_at`) VALUES (\'9\', \'{\\"pregunta1\\":\\"5\\",\\"pregunta2\\":\\"5\\",\\"pregunta3\\":\\"3\\",\\"pregunta4\\":\\"4\\",\\"pregunta5\\":\\"5\\",\\"pregunta6\\":\\"5\\",\\"pregunta7\\":\\"5\\",\\"pregunta8\\":\\"5\\",\\"pregunta9\\":\\"5\\",\\"pregunta10\\":\\"5\\",\\"pregunta11\\":\\"4\\",\\"pregunta12\\":\\"4\\",\\"pregunta13\\":\\"4\\",\\"pregunta14\\":\\"5\\",\\"pregunta15\\":\\"5\\",\\"pregunta16\\":\\"4\\",\\"pregunta17\\":\\"4\\",\\"pregunta18\\":\\"3\\",\\"pregunta19\\":\\"5\\",\\"pregunta20\\":\\"5\\",\\"pregunta21\\":\\"5\\",\\"pregunta22\\":\\"5\\",\\"pregunta23\\":\\"5\\",\\"pregunta24\\":\\"4\\",\\"pregunta25\\":\\"4\\",\\"pregunta26\\":\\"4\\",\\"pregunta27\\":\\"4\\",\\"pregunta28\\":\\"5\\",\\"pregunta29\\":\\"4\\",\\"pregunta30\\":\\"4\\",\\"pregunta31\\":\\"5\\",\\"pregunta32\\":\\"5\\",\\"pregunta33\\":\\"5\\",\\"pregunta34\\":\\"5\\",\\"pregunta35\\":\\"5\\",\\"pregunta36\\":\\"5\\",\\"pregunta37\\":\\"5\\",\\"pregunta38\\":\\"5\\",\\"pregunta39\\":\\"5\\",\\"pregunta40\\":\\"2\\",\\"pregunta41\\":\\"1\\",\\"pregunta42\\":\\"2\\",\\"pregunta43\\":\\"3\\",\\"pregunta44\\":\\"2\\",\\"pregunta45\\":\\"3\\",\\"pregunta46\\":\\"3\\"}\', \'Sin comentarios\', \'2023-08-04 06:22:54\', \'2023-08-04 06:22:54\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `evaluaciones` (`asignatura_id`, `respuestas`, `comentario`, `created_at`, `updated_at`) VALUES (\'9\', \'{\\"pregunta1\\":\\"5\\",\\"pregunta2\\":\\"5\\",\\"pregunta3\\":\\"3\\",\\"pregunta4\\":\\"4\\",\\"pregunta5\\":\\"5\\",\\"pregunta6\\":\\"5\\",\\"pregunta7\\":\\"5\\",\\"pregunta8\\":\\"5\\",\\"pregunta9\\":\\"5\\",\\"pregunta10\\":\\"5\\",\\"pregunta11\\":\\"4\\",\\"pregunta12\\":\\"4\\",\\"pregunta13\\":\\"4\\",\\"pregunta14\\":\\"5\\",\\"pregunta15\\":\\"5\\",\\"pregunta16\\":\\"4\\",\\"pregunta17\\":\\"4\\",\\"pregunta18\\":\\"3\\",\\"pregunta19\\":\\"5\\",\\"pregunta20\\":\\"5\\",\\"pregunta21\\":\\"5\\",\\"pregunta22\\":\\"5\\",\\"pregunta23\\":\\"5\\",\\"pregunta24\\":\\"4\\",\\"pregunta25\\":\\"4\\",\\"pregunta26\\":\\"4\\",\\"pregunta27\\":\\"4\\",\\"pregunta28\\":\\"5\\",\\"pregunta29\\":\\"4\\",\\"pregunta30\\":\\"4\\",\\"pregunta31\\":\\"5\\",\\"pregunta32\\":\\"5\\",\\"pregunta33\\":\\"5\\",\\"pregunta34\\":\\"5\\",\\"pregunta35\\":\\"5\\",\\"pregunta36\\":\\"5\\",\\"pregunta37\\":\\"5\\",\\"pregunta38\\":\\"5\\",\\"pregunta39\\":\\"5\\",\\"pregunta40\\":\\"2\\",\\"pregunta41\\":\\"1\\",\\"pregunta42\\":\\"2\\",\\"pregunta43\\":\\"3\\",\\"pregunta44\\":\\"2\\",\\"pregunta45\\":\\"3\\",\\"pregunta46\\":\\"3\\"}\', \'Sin comentarios\', \'2023-08-04 06:22:54\', \'2023-08-04 06:22:54\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `evaluaciones` (`asignatura_id`, `respuestas`, `comentario`, `created_at`, `updated_at`) VALUES (\'9\', \'{\\"pregunta1\\":\\"5\\",\\"pregunta2\\":\\"5\\",\\"pregunta3\\":\\"3\\",\\"pregunta4\\":\\"4\\",\\"pregunta5\\":\\"5\\",\\"pregunta6\\":\\"5\\",\\"pregunta7\\":\\"5\\",\\"pregunta8\\":\\"5\\",\\"pregunta9\\":\\"5\\",\\"pregunta10\\":\\"5\\",\\"pregunta11\\":\\"4\\",\\"pregunta12\\":\\"4\\",\\"pregunta13\\":\\"4\\",\\"pregunta14\\":\\"5\\",\\"pregunta15\\":\\"5\\",\\"pregunta16\\":\\"4\\",\\"pregunta17\\":\\"4\\",\\"pregunta18\\":\\"3\\",\\"pregunta19\\":\\"5\\",\\"pregunta20\\":\\"5\\",\\"pregunta21\\":\\"5\\",\\"pregunta22\\":\\"5\\",\\"pregunta23\\":\\"5\\",\\"pregunta24\\":\\"4\\",\\"pregunta25\\":\\"4\\",\\"pregunta26\\":\\"4\\",\\"pregunta27\\":\\"4\\",\\"pregunta28\\":\\"5\\",\\"pregunta29\\":\\"4\\",\\"pregunta30\\":\\"4\\",\\"pregunta31\\":\\"5\\",\\"pregunta32\\":\\"5\\",\\"pregunta33\\":\\"5\\",\\"pregunta34\\":\\"5\\",\\"pregunta35\\":\\"5\\",\\"pregunta36\\":\\"5\\",\\"pregunta37\\":\\"5\\",\\"pregunta38\\":\\"5\\",\\"pregunta39\\":\\"5\\",\\"pregunta40\\":\\"2\\",\\"pregunta41\\":\\"1\\",\\"pregunta42\\":\\"2\\",\\"pregunta43\\":\\"3\\",\\"pregunta44\\":\\"2\\",\\"pregunta45\\":\\"3\\",\\"pregunta46\\":\\"3\\"}\', \'Sin comentarios\', \'2023-08-04 06:22:54\', \'2023-08-04 06:22:54\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `evaluaciones` (`asignatura_id`, `respuestas`, `comentario`, `created_at`, `updated_at`) VALUES (:asignatura_id:, :respuestas:, :comentario:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Admin\EvaluacionController.php(41): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->enviar()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-04 06:23:27 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ev...', 0)
+#1 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\app\Controllers\Admin\EvaluacionController.php(41): CodeIgniter\BaseModel->save(Array)
+#9 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->enviar()
+#10 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+#11 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Server\rewrite.php(47): require_once('D:\\development\\...')
+#14 {main}
+CRITICAL - 2023-08-04 06:23:27 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `evaluacion` (`asignatura_id`, `respuestas`, `comentario`, `created_at`, `updated_at`) VALUES (\'9\', \'{\\"pregunta1\\":\\"5\\",\\"pregunta2\\":\\"5\\",\\"pregunta3\\":\\"3\\",\\"pregunta4\\":\\"4\\",\\"pregunta5\\":\\"5\\",\\"pregunta6\\":\\"5\\",\\"pregunta7\\":\\"5\\",\\"pregunta8\\":\\"5\\",\\"pregunta9\\":\\"5\\",\\"pregunta10\\":\\"5\\",\\"pregunta11\\":\\"4\\",\\"pregunta12\\":\\"4\\",\\"pregunta13\\":\\"4\\",\\"pregunta14\\":\\"5\\",\\"pregunta15\\":\\"5\\",\\"pregunta16\\":\\"4\\",\\"pregunta17\\":\\"4\\",\\"pregunta18\\":\\"3\\",\\"pregunta19\\":\\"5\\",\\"pregunta20\\":\\"5\\",\\"pregunta21\\":\\"5\\",\\"pregunta22\\":\\"5\\",\\"pregunta23\\":\\"5\\",\\"pregunta24\\":\\"4\\",\\"pregunta25\\":\\"4\\",\\"pregunta26\\":\\"4\\",\\"pregunta27\\":\\"4\\",\\"pregunta28\\":\\"5\\",\\"pregunta29\\":\\"4\\",\\"pregunta30\\":\\"4\\",\\"pregunta31\\":\\"5\\",\\"pregunta32\\":\\"5\\",\\"pregunta33\\":\\"5\\",\\"pregunta34\\":\\"5\\",\\"pregunta35\\":\\"5\\",\\"pregunta36\\":\\"5\\",\\"pregunta37\\":\\"5\\",\\"pregunta38\\":\\"5\\",\\"pregunta39\\":\\"5\\",\\"pregunta40\\":\\"2\\",\\"pregunta41\\":\\"1\\",\\"pregunta42\\":\\"2\\",\\"pregunta43\\":\\"3\\",\\"pregunta44\\":\\"2\\",\\"pregunta45\\":\\"3\\",\\"pregunta46\\":\\"3\\"}\', \'Sin comentarios\', \'2023-08-04 06:23:27\', \'2023-08-04 06:23:27\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `evaluacion` (`asignatura_id`, `respuestas`, `comentario`, `created_at`, `updated_at`) VALUES (\'9\', \'{\\"pregunta1\\":\\"5\\",\\"pregunta2\\":\\"5\\",\\"pregunta3\\":\\"3\\",\\"pregunta4\\":\\"4\\",\\"pregunta5\\":\\"5\\",\\"pregunta6\\":\\"5\\",\\"pregunta7\\":\\"5\\",\\"pregunta8\\":\\"5\\",\\"pregunta9\\":\\"5\\",\\"pregunta10\\":\\"5\\",\\"pregunta11\\":\\"4\\",\\"pregunta12\\":\\"4\\",\\"pregunta13\\":\\"4\\",\\"pregunta14\\":\\"5\\",\\"pregunta15\\":\\"5\\",\\"pregunta16\\":\\"4\\",\\"pregunta17\\":\\"4\\",\\"pregunta18\\":\\"3\\",\\"pregunta19\\":\\"5\\",\\"pregunta20\\":\\"5\\",\\"pregunta21\\":\\"5\\",\\"pregunta22\\":\\"5\\",\\"pregunta23\\":\\"5\\",\\"pregunta24\\":\\"4\\",\\"pregunta25\\":\\"4\\",\\"pregunta26\\":\\"4\\",\\"pregunta27\\":\\"4\\",\\"pregunta28\\":\\"5\\",\\"pregunta29\\":\\"4\\",\\"pregunta30\\":\\"4\\",\\"pregunta31\\":\\"5\\",\\"pregunta32\\":\\"5\\",\\"pregunta33\\":\\"5\\",\\"pregunta34\\":\\"5\\",\\"pregunta35\\":\\"5\\",\\"pregunta36\\":\\"5\\",\\"pregunta37\\":\\"5\\",\\"pregunta38\\":\\"5\\",\\"pregunta39\\":\\"5\\",\\"pregunta40\\":\\"2\\",\\"pregunta41\\":\\"1\\",\\"pregunta42\\":\\"2\\",\\"pregunta43\\":\\"3\\",\\"pregunta44\\":\\"2\\",\\"pregunta45\\":\\"3\\",\\"pregunta46\\":\\"3\\"}\', \'Sin comentarios\', \'2023-08-04 06:23:27\', \'2023-08-04 06:23:27\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `evaluacion` (`asignatura_id`, `respuestas`, `comentario`, `created_at`, `updated_at`) VALUES (\'9\', \'{\\"pregunta1\\":\\"5\\",\\"pregunta2\\":\\"5\\",\\"pregunta3\\":\\"3\\",\\"pregunta4\\":\\"4\\",\\"pregunta5\\":\\"5\\",\\"pregunta6\\":\\"5\\",\\"pregunta7\\":\\"5\\",\\"pregunta8\\":\\"5\\",\\"pregunta9\\":\\"5\\",\\"pregunta10\\":\\"5\\",\\"pregunta11\\":\\"4\\",\\"pregunta12\\":\\"4\\",\\"pregunta13\\":\\"4\\",\\"pregunta14\\":\\"5\\",\\"pregunta15\\":\\"5\\",\\"pregunta16\\":\\"4\\",\\"pregunta17\\":\\"4\\",\\"pregunta18\\":\\"3\\",\\"pregunta19\\":\\"5\\",\\"pregunta20\\":\\"5\\",\\"pregunta21\\":\\"5\\",\\"pregunta22\\":\\"5\\",\\"pregunta23\\":\\"5\\",\\"pregunta24\\":\\"4\\",\\"pregunta25\\":\\"4\\",\\"pregunta26\\":\\"4\\",\\"pregunta27\\":\\"4\\",\\"pregunta28\\":\\"5\\",\\"pregunta29\\":\\"4\\",\\"pregunta30\\":\\"4\\",\\"pregunta31\\":\\"5\\",\\"pregunta32\\":\\"5\\",\\"pregunta33\\":\\"5\\",\\"pregunta34\\":\\"5\\",\\"pregunta35\\":\\"5\\",\\"pregunta36\\":\\"5\\",\\"pregunta37\\":\\"5\\",\\"pregunta38\\":\\"5\\",\\"pregunta39\\":\\"5\\",\\"pregunta40\\":\\"2\\",\\"pregunta41\\":\\"1\\",\\"pregunta42\\":\\"2\\",\\"pregunta43\\":\\"3\\",\\"pregunta44\\":\\"2\\",\\"pregunta45\\":\\"3\\",\\"pregunta46\\":\\"3\\"}\', \'Sin comentarios\', \'2023-08-04 06:23:27\', \'2023-08-04 06:23:27\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `evaluacion` (`asignatura_id`, `respuestas`, `comentario`, `created_at`, `updated_at`) VALUES (:asignatura_id:, :respuestas:, :comentario:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Admin\EvaluacionController.php(41): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->enviar()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-04 06:24:00 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ev...', 0)
+#1 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\app\Controllers\Admin\EvaluacionController.php(41): CodeIgniter\BaseModel->save(Array)
+#9 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->enviar()
+#10 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+#11 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Server\rewrite.php(47): require_once('D:\\development\\...')
+#14 {main}
+CRITICAL - 2023-08-04 06:24:00 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `evaluacion` (`asignatura_id`, `respuestas`, `comentario`, `created_at`, `updated_at`) VALUES (\'9\', \'{\\"pregunta1\\":\\"5\\",\\"pregunta2\\":\\"5\\",\\"pregunta3\\":\\"3\\",\\"pregunta4\\":\\"4\\",\\"pregunta5\\":\\"5\\",\\"pregunta6\\":\\"5\\",\\"pregunta7\\":\\"5\\",\\"pregunta8\\":\\"5\\",\\"pregunta9\\":\\"5\\",\\"pregunta10\\":\\"5\\",\\"pregunta11\\":\\"4\\",\\"pregunta12\\":\\"4\\",\\"pregunta13\\":\\"4\\",\\"pregunta14\\":\\"5\\",\\"pregunta15\\":\\"5\\",\\"pregunta16\\":\\"4\\",\\"pregunta17\\":\\"4\\",\\"pregunta18\\":\\"3\\",\\"pregunta19\\":\\"5\\",\\"pregunta20\\":\\"5\\",\\"pregunta21\\":\\"5\\",\\"pregunta22\\":\\"5\\",\\"pregunta23\\":\\"5\\",\\"pregunta24\\":\\"4\\",\\"pregunta25\\":\\"4\\",\\"pregunta26\\":\\"4\\",\\"pregunta27\\":\\"4\\",\\"pregunta28\\":\\"5\\",\\"pregunta29\\":\\"4\\",\\"pregunta30\\":\\"4\\",\\"pregunta31\\":\\"5\\",\\"pregunta32\\":\\"5\\",\\"pregunta33\\":\\"5\\",\\"pregunta34\\":\\"5\\",\\"pregunta35\\":\\"5\\",\\"pregunta36\\":\\"5\\",\\"pregunta37\\":\\"5\\",\\"pregunta38\\":\\"5\\",\\"pregunta39\\":\\"5\\",\\"pregunta40\\":\\"2\\",\\"pregunta41\\":\\"1\\",\\"pregunta42\\":\\"2\\",\\"pregunta43\\":\\"3\\",\\"pregunta44\\":\\"2\\",\\"pregunta45\\":\\"3\\",\\"pregunta46\\":\\"3\\"}\', \'Sin comentarios\', \'2023-08-04 06:24:00\', \'2023-08-04 06:24:00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `evaluacion` (`asignatura_id`, `respuestas`, `comentario`, `created_at`, `updated_at`) VALUES (\'9\', \'{\\"pregunta1\\":\\"5\\",\\"pregunta2\\":\\"5\\",\\"pregunta3\\":\\"3\\",\\"pregunta4\\":\\"4\\",\\"pregunta5\\":\\"5\\",\\"pregunta6\\":\\"5\\",\\"pregunta7\\":\\"5\\",\\"pregunta8\\":\\"5\\",\\"pregunta9\\":\\"5\\",\\"pregunta10\\":\\"5\\",\\"pregunta11\\":\\"4\\",\\"pregunta12\\":\\"4\\",\\"pregunta13\\":\\"4\\",\\"pregunta14\\":\\"5\\",\\"pregunta15\\":\\"5\\",\\"pregunta16\\":\\"4\\",\\"pregunta17\\":\\"4\\",\\"pregunta18\\":\\"3\\",\\"pregunta19\\":\\"5\\",\\"pregunta20\\":\\"5\\",\\"pregunta21\\":\\"5\\",\\"pregunta22\\":\\"5\\",\\"pregunta23\\":\\"5\\",\\"pregunta24\\":\\"4\\",\\"pregunta25\\":\\"4\\",\\"pregunta26\\":\\"4\\",\\"pregunta27\\":\\"4\\",\\"pregunta28\\":\\"5\\",\\"pregunta29\\":\\"4\\",\\"pregunta30\\":\\"4\\",\\"pregunta31\\":\\"5\\",\\"pregunta32\\":\\"5\\",\\"pregunta33\\":\\"5\\",\\"pregunta34\\":\\"5\\",\\"pregunta35\\":\\"5\\",\\"pregunta36\\":\\"5\\",\\"pregunta37\\":\\"5\\",\\"pregunta38\\":\\"5\\",\\"pregunta39\\":\\"5\\",\\"pregunta40\\":\\"2\\",\\"pregunta41\\":\\"1\\",\\"pregunta42\\":\\"2\\",\\"pregunta43\\":\\"3\\",\\"pregunta44\\":\\"2\\",\\"pregunta45\\":\\"3\\",\\"pregunta46\\":\\"3\\"}\', \'Sin comentarios\', \'2023-08-04 06:24:00\', \'2023-08-04 06:24:00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `evaluacion` (`asignatura_id`, `respuestas`, `comentario`, `created_at`, `updated_at`) VALUES (\'9\', \'{\\"pregunta1\\":\\"5\\",\\"pregunta2\\":\\"5\\",\\"pregunta3\\":\\"3\\",\\"pregunta4\\":\\"4\\",\\"pregunta5\\":\\"5\\",\\"pregunta6\\":\\"5\\",\\"pregunta7\\":\\"5\\",\\"pregunta8\\":\\"5\\",\\"pregunta9\\":\\"5\\",\\"pregunta10\\":\\"5\\",\\"pregunta11\\":\\"4\\",\\"pregunta12\\":\\"4\\",\\"pregunta13\\":\\"4\\",\\"pregunta14\\":\\"5\\",\\"pregunta15\\":\\"5\\",\\"pregunta16\\":\\"4\\",\\"pregunta17\\":\\"4\\",\\"pregunta18\\":\\"3\\",\\"pregunta19\\":\\"5\\",\\"pregunta20\\":\\"5\\",\\"pregunta21\\":\\"5\\",\\"pregunta22\\":\\"5\\",\\"pregunta23\\":\\"5\\",\\"pregunta24\\":\\"4\\",\\"pregunta25\\":\\"4\\",\\"pregunta26\\":\\"4\\",\\"pregunta27\\":\\"4\\",\\"pregunta28\\":\\"5\\",\\"pregunta29\\":\\"4\\",\\"pregunta30\\":\\"4\\",\\"pregunta31\\":\\"5\\",\\"pregunta32\\":\\"5\\",\\"pregunta33\\":\\"5\\",\\"pregunta34\\":\\"5\\",\\"pregunta35\\":\\"5\\",\\"pregunta36\\":\\"5\\",\\"pregunta37\\":\\"5\\",\\"pregunta38\\":\\"5\\",\\"pregunta39\\":\\"5\\",\\"pregunta40\\":\\"2\\",\\"pregunta41\\":\\"1\\",\\"pregunta42\\":\\"2\\",\\"pregunta43\\":\\"3\\",\\"pregunta44\\":\\"2\\",\\"pregunta45\\":\\"3\\",\\"pregunta46\\":\\"3\\"}\', \'Sin comentarios\', \'2023-08-04 06:24:00\', \'2023-08-04 06:24:00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `evaluacion` (`asignatura_id`, `respuestas`, `comentario`, `created_at`, `updated_at`) VALUES (:asignatura_id:, :respuestas:, :comentario:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Admin\EvaluacionController.php(41): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->enviar()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 06:35:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 06:35:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 06:35:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 06:35:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EstudianteController::$session is deprecated in APPPATH\Controllers\Admin\EstudianteController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\EstudianteController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-04 06:38:43 --> mysqli_sql_exception: Unknown column 'profesor_id' in 'field list' in D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ev...', 0)
+#1 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\app\Controllers\Admin\EvaluacionController.php(45): CodeIgniter\BaseModel->save(Array)
+#9 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->enviar()
+#10 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+#11 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Server\rewrite.php(47): require_once('D:\\development\\...')
+#14 {main}
+CRITICAL - 2023-08-04 06:38:43 --> Unknown column 'profesor_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `evaluacion` (`asignatura_id`, `profesor_id`, `respuestas`, `comentario`) VALUES (\'3\', \'1\', \'{\\"pregunta16\\":\\"4\\",\\"pregunta19\\":\\"3\\"}\', \'dsafdsadfs\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `evaluacion` (`asignatura_id`, `profesor_id`, `respuestas`, `comentario`) VALUES (\'3\', \'1\', \'{\\"pregunta16\\":\\"4\\",\\"pregunta19\\":\\"3\\"}\', \'dsafdsadfs\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `evaluacion` (`asignatura_id`, `profesor_id`, `respuestas`, `comentario`) VALUES (\'3\', \'1\', \'{\\"pregunta16\\":\\"4\\",\\"pregunta19\\":\\"3\\"}\', \'dsafdsadfs\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `evaluacion` (`asignatura_id`, `profesor_id`, `respuestas`, `comentario`) VALUES (:asignatura_id:, :profesor_id:, :respuestas:, :comentario:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Admin\EvaluacionController.php(45): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->enviar()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-04 06:39:40 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`evaldoc_linux`.`evaluacion`, CONSTRAINT `evaluacion_asignatura_id_foreign` FOREIGN KEY (`asignatura_id`) REFERENCES `asignaturas` (`id`)) in D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ev...', 0)
+#1 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\app\Controllers\Admin\EvaluacionController.php(45): CodeIgniter\BaseModel->save(Array)
+#9 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->enviar()
+#10 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+#11 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\development\Proyectos\UPN212TEZ\evaldoc_linux\system\Commands\Server\rewrite.php(47): require_once('D:\\development\\...')
+#14 {main}
+CRITICAL - 2023-08-04 06:39:40 --> Cannot add or update a child row: a foreign key constraint fails (`evaldoc_linux`.`evaluacion`, CONSTRAINT `evaluacion_asignatura_id_foreign` FOREIGN KEY (`asignatura_id`) REFERENCES `asignaturas` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `evaluacion` (`asignatura_id`, `profesor_id`, `respuestas`, `comentario`) VALUES (\'3\', \'1\', \'{\\"pregunta16\\":\\"4\\",\\"pregunta19\\":\\"3\\"}\', \'dsafdsadfs\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `evaluacion` (`asignatura_id`, `profesor_id`, `respuestas`, `comentario`) VALUES (\'3\', \'1\', \'{\\"pregunta16\\":\\"4\\",\\"pregunta19\\":\\"3\\"}\', \'dsafdsadfs\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `evaluacion` (`asignatura_id`, `profesor_id`, `respuestas`, `comentario`) VALUES (\'3\', \'1\', \'{\\"pregunta16\\":\\"4\\",\\"pregunta19\\":\\"3\\"}\', \'dsafdsadfs\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `evaluacion` (`asignatura_id`, `profesor_id`, `respuestas`, `comentario`) VALUES (:asignatura_id:, :profesor_id:, :respuestas:, :comentario:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Admin\EvaluacionController.php(45): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->enviar()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 06:40:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 06:40:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 06:40:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH\Controllers\Admin\UsuarioController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-04 06:41:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EstudianteController::$session is deprecated in APPPATH\Controllers\Admin\EstudianteController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\EstudianteController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\development\\Proyectos\\UPN212TEZ\\evaldoc_linux\\public\\index.php')
+INFO - 2023-08-04 06:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 06:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 07:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
