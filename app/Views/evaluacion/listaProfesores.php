@@ -13,15 +13,17 @@
 
             <a href="<?= base_url('admin/') ?>" class="btn btn-default float-right mr-2"><i
                     class="fa fa-arrow-left"></i> Regresar</a>
+            <a href="<?= base_url('admin/evaluacion/tde') ?>" class="btn btn-outline-danger float-right mr-2" target="_blank">Descargar lista de profesores evaluados</a>
+
             <h3>Profesores evaluados</h3>
 
         </div>
 
         <div class="card-body">
 
-            <a href="<?= base_url('admin/evaluacion/tde') ?>" class="btn btn-default float-right mr-2 mt-3 mb-3">Descargar lista de profesores evaluados</a>
+            
 
-            <table class="table table-striped">
+            <table id="example1" class="table table-justify table-striped table-bordered table-hover">
                 <thead>
                     <th>PROFESOR(A)</th>
                     <th>OPCIONES</th>

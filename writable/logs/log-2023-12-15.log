@@ -125,3 +125,726 @@ in APPPATH\Controllers\Estudiante\EvaluacionController.php on line 107.
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\en desarrollo\\upn212evaldoc\\public\\index.php')
 INFO - 2023-12-15 16:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-15 21:35:04 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect()
+ 4 APPPATH/Validation/Userrules.php(9): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/Validation/Validation.php(312): App\Validation\Userrules->validateUser()
+ 6 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 7 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH/Controllers/UserController.php(27): CodeIgniter\Controller->validate()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->login()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-15 21:35:35 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect()
+ 4 APPPATH/Validation/Userrules.php(9): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/Validation/Validation.php(312): App\Validation\Userrules->validateUser()
+ 6 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 7 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH/Controllers/UserController.php(27): CodeIgniter\Controller->validate()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->login()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-15 21:35:51 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect()
+ 4 APPPATH/Validation/Userrules.php(9): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/Validation/Validation.php(312): App\Validation\Userrules->validateUser()
+ 6 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 7 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH/Controllers/UserController.php(27): CodeIgniter\Controller->validate()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->login()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-15 21:37:13 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect()
+ 4 APPPATH/Validation/Userrules.php(9): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/Validation/Validation.php(312): App\Validation\Userrules->validateUser()
+ 6 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 7 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH/Controllers/UserController.php(27): CodeIgniter\Controller->validate()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->login()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-15 21:38:17 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect()
+ 4 APPPATH/Validation/Userrules.php(9): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/Validation/Validation.php(312): App\Validation\Userrules->validateUser()
+ 6 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 7 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH/Controllers/UserController.php(27): CodeIgniter\Controller->validate()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->login()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-15 21:38:33 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect()
+ 4 APPPATH/Validation/Userrules.php(9): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/Validation/Validation.php(312): App\Validation\Userrules->validateUser()
+ 6 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 7 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH/Controllers/UserController.php(27): CodeIgniter\Controller->validate()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->login()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-15 21:39:47 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load()
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect()
+ 4 APPPATH/Validation/Userrules.php(9): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH/Validation/Validation.php(312): App\Validation\Userrules->validateUser()
+ 6 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 7 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH/Controllers/UserController.php(27): CodeIgniter\Controller->validate()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserController->login()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 21:40:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 21:40:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 21:41:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 21:41:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 21:42:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EvaluacionController::$session is deprecated in APPPATH/Controllers/Admin/EvaluacionController.php on line 103.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->enviar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 21:42:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EvaluacionController::$session is deprecated in APPPATH/Controllers/Admin/EvaluacionController.php on line 1015.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->gracias()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-15 21:47:31 --> mysqli_sql_exception: Column 'created_at' in where clause is ambiguous in /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/degante/development/upn212evaldocv2/app/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+#4 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+#5 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#6 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/degante/development/upn212evaldocv2/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 /home/degante/development/upn212evaldocv2/system/Commands/Server/rewrite.php(47): require_once('...')
+#9 {main}
+CRITICAL - 2023-12-15 21:47:31 --> Column 'created_at' in where clause is ambiguous
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-15 21:47:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' created_at BETWEEN '2023-11-01' AND '2024-02-01'' at line 1 in /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/degante/development/upn212evaldocv2/app/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+#4 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+#5 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#6 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/degante/development/upn212evaldocv2/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 /home/degante/development/upn212evaldocv2/system/Commands/Server/rewrite.php(47): require_once('...')
+#9 {main}
+CRITICAL - 2023-12-15 21:47:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' created_at BETWEEN '2023-11-01' AND '2024-02-01'' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-15 21:48:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' created_at BETWEEN '2023/11/01' AND '2024/02/01'' at line 1 in /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/degante/development/upn212evaldocv2/app/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+#4 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+#5 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#6 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/degante/development/upn212evaldocv2/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 /home/degante/development/upn212evaldocv2/system/Commands/Server/rewrite.php(47): require_once('...')
+#9 {main}
+CRITICAL - 2023-12-15 21:48:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' created_at BETWEEN '2023/11/01' AND '2024/02/01'' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-15 21:50:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' created_at BETWEEN >= '2023/11/01' AND < '2024/02/01'' at line 1 in /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/degante/development/upn212evaldocv2/app/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+#4 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+#5 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#6 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/degante/development/upn212evaldocv2/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 /home/degante/development/upn212evaldocv2/system/Commands/Server/rewrite.php(47): require_once('...')
+#9 {main}
+CRITICAL - 2023-12-15 21:50:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' created_at BETWEEN >= '2023/11/01' AND < '2024/02/01'' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-15 21:50:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' created_at BETWEEN >= '2023/11/01' AND < '2024/02/01'' at line 1 in /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/degante/development/upn212evaldocv2/app/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+#4 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+#5 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#6 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/degante/development/upn212evaldocv2/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 /home/degante/development/upn212evaldocv2/system/Commands/Server/rewrite.php(47): require_once('...')
+#9 {main}
+CRITICAL - 2023-12-15 21:50:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' created_at BETWEEN >= '2023/11/01' AND < '2024/02/01'' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-15 21:50:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' evaluacion.created_at BETWEEN > '2023/11/01' AND < '2024/02/01'' at line 1 in /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/degante/development/upn212evaldocv2/app/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+#4 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+#5 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#6 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/degante/development/upn212evaldocv2/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 /home/degante/development/upn212evaldocv2/system/Commands/Server/rewrite.php(47): require_once('...')
+#9 {main}
+CRITICAL - 2023-12-15 21:50:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' evaluacion.created_at BETWEEN > '2023/11/01' AND < '2024/02/01'' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-15 21:50:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' evaluacion.created_at BETWEEN > '2023/11/01' AND < '2024/02/01'' at line 1 in /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/degante/development/upn212evaldocv2/app/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+#4 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+#5 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#6 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/degante/development/upn212evaldocv2/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 /home/degante/development/upn212evaldocv2/system/Commands/Server/rewrite.php(47): require_once('...')
+#9 {main}
+CRITICAL - 2023-12-15 21:50:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' evaluacion.created_at BETWEEN > '2023/11/01' AND < '2024/02/01'' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-15 21:50:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> '2023/11/01' AND < '2024/02/01'' at line 1 in /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/degante/development/upn212evaldocv2/app/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+#4 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+#5 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#6 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/degante/development/upn212evaldocv2/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 /home/degante/development/upn212evaldocv2/system/Commands/Server/rewrite.php(47): require_once('...')
+#9 {main}
+CRITICAL - 2023-12-15 21:50:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> '2023/11/01' AND < '2024/02/01'' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Estudiante/EvaluacionController.php(86): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 21:51:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EvaluacionController::$session is deprecated in APPPATH/Controllers/Admin/EvaluacionController.php on line 1015.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->gracias()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-15 21:54:30 --> Class "App\Controllers\Estudiante\ProfesorModel" not found
+in APPPATH/Controllers/Estudiante/EvaluacionController.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-15 21:54:44 --> Undefined variable $profesorModel
+in APPPATH/Controllers/Estudiante/EvaluacionController.php on line 115.
+ 1 APPPATH/Controllers/Estudiante/EvaluacionController.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 21:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 21:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-15 22:10:59 --> Undefined variable $fechaActual
+in APPPATH/Controllers/Estudiante/EvaluacionController.php on line 123.
+ 1 APPPATH/Controllers/Estudiante/EvaluacionController.php(123): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:12:09 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Estudiante/EvaluacionController.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:12:41 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Estudiante/EvaluacionController.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:14:58 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Estudiante/EvaluacionController.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+CRITICAL - 2023-12-15 22:14:58 --> strtoupper() expects exactly 1 argument, 4 given
+in APPPATH/Controllers/Estudiante/EvaluacionController.php on line 141.
+ 1 APPPATH/Controllers/Estudiante/EvaluacionController.php(141): strtoupper()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:15:40 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Estudiante/EvaluacionController.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:15:54 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Estudiante/EvaluacionController.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:16:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EvaluacionController::$session is deprecated in APPPATH/Controllers/Admin/EvaluacionController.php on line 103.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->enviar()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:16:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\EvaluacionController::$session is deprecated in APPPATH/Controllers/Admin/EvaluacionController.php on line 1015.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->gracias()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:16:35 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Estudiante/EvaluacionController.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:17:11 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Estudiante/EvaluacionController.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:18:18 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Estudiante/EvaluacionController.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:18:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Estudiante/EvaluacionController.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:18:44 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Estudiante/EvaluacionController.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Estudiante\EvaluacionController->generarConstanciaED()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:29:08 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Admin/EvaluacionController.php on line 1422.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('1')
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:45:25 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Admin/EvaluacionController.php on line 1401.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('68')
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:45:36 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Admin/EvaluacionController.php on line 1401.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('153')
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 22:45:44 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Admin/EvaluacionController.php on line 1401.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('8')
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 22:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 22:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 23:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-15 23:01:36 --> mysqli_sql_exception: Unknown column 'created_at' in 'where clause' in /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/degante/development/upn212evaldocv2/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/degante/development/upn212evaldocv2/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/degante/development/upn212evaldocv2/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /home/degante/development/upn212evaldocv2/app/Controllers/Admin/EvaluacionController.php(239): CodeIgniter\BaseModel->findAll()
+#7 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->listaProfesores()
+#8 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/degante/development/upn212evaldocv2/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /home/degante/development/upn212evaldocv2/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-12-15 23:01:36 --> Unknown column 'created_at' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Controllers/Admin/EvaluacionController.php(239): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->listaProfesores()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 23:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 23:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 23:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 23:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 23:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-15 23:09:14 --> mysqli_sql_exception: Unknown table 'evaldoc.profesores' in /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/degante/development/upn212evaldocv2/app/Controllers/Admin/EvaluacionController.php(243): CodeIgniter\Database\BaseConnection->query()
+#4 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->listaProfesores()
+#5 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#6 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/degante/development/upn212evaldocv2/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 /home/degante/development/upn212evaldocv2/system/Commands/Server/rewrite.php(47): require_once('...')
+#9 {main}
+CRITICAL - 2023-12-15 23:09:14 --> Unknown table 'evaldoc.profesores'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Admin/EvaluacionController.php(243): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->listaProfesores()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 23:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 23:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-15 23:11:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.*, e.* from profesores as p join evaluacion as e on p.id = e.profesor_id' at line 1 in /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/degante/development/upn212evaldocv2/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/degante/development/upn212evaldocv2/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/degante/development/upn212evaldocv2/app/Controllers/Admin/EvaluacionController.php(243): CodeIgniter\Database\BaseConnection->query()
+#4 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->listaProfesores()
+#5 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#6 /home/degante/development/upn212evaldocv2/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/degante/development/upn212evaldocv2/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 /home/degante/development/upn212evaldocv2/system/Commands/Server/rewrite.php(47): require_once('...')
+#9 {main}
+CRITICAL - 2023-12-15 23:11:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.*, e.* from profesores as p join evaluacion as e on p.id = e.profesor_id' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Admin/EvaluacionController.php(243): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->listaProfesores()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 23:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 23:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 23:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-15 23:21:02 --> syntax error, unexpected integer "2023", expecting ")"
+in APPPATH/Controllers/Admin/EvaluacionController.php on line 247.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 23:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 23:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-15 23:29:26 --> syntax error, unexpected identifier "join"
+in APPPATH/Controllers/Admin/EvaluacionController.php on line 239.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 23:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-15 23:29:36 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/EvaluacionController.php on line 1100.
+ 1 APPPATH/Controllers/Admin/EvaluacionController.php(1100): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 23:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-15 23:31:05 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Admin/EvaluacionController.php on line 1100.
+ 1 APPPATH/Controllers/Admin/EvaluacionController.php(1100): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 23:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 23:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 23:31:11 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Controllers/Admin/EvaluacionController.php on line 1415.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport('68')
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\EvaluacionController))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')
+INFO - 2023-12-15 23:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-15 23:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-15 23:32:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\UsuarioController::$session is deprecated in APPPATH/Controllers/Admin/UsuarioController.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Admin\UsuarioController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/degante/development/upn212evaldocv2/public/index.php')

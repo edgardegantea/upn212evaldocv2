@@ -133,32 +133,6 @@ class EvaluacionController extends BaseController
     }
 
 
-// public function resultados()
-// {
-// $resultados = new EvaluacionModel();
-
-// $resultadosJSON = $resultados->find($resultados->getInsertID());
-
-// $db      = \Config\Database::connect();
-// $query = $db->query('SELECT respuestas FROM evaluacion;')->getResult();
-
-    /*
-    foreach ($query->getResult('User') as $user) {
-    echo $user->name; // access attributes
-    echo $user->reverseName(); // or methods defined on the 'User' class
-    }
-    */
-
-    /*
-    $resultadosDecodificados = [];
-    foreach ($resultadosJSON as $resultadoJSON) {
-        $resultadosDecodificados[] = json_decode($resultadoJSON['respuestas'], true);
-    }
-    */
-
-// return view('evaluacion/resultados', ['resultados' => json_decode($resultadosJSON['respuestas'], true)]);
-// dd(json_decode($query, true));
-// }
 
 
     public function mostrarResumenPorDocente($docenteId)
@@ -169,11 +143,9 @@ class EvaluacionController extends BaseController
         $docente = $docenteModel->find($docenteId);
 
         if (!$docente) {
-            // Manejar el caso si el docente no se encuentra
-            // Puede ser una redirección o un mensaje de error
         }
 
-        $evaluaciones = $evaluacionModel->obtenerEvaluacionesPorDocente($docenteId); // Implementa este método en el modelo
+        $evaluaciones = $evaluacionModel->obtenerEvaluacionesPorDocente($docenteId);
 
         $data['docente'] = $docente;
         $data['evaluaciones'] = $evaluaciones;
@@ -223,7 +195,8 @@ class EvaluacionController extends BaseController
     }
 
 
-// función para buscar comentarios por docente
+
+    // función para buscar comentarios por docente
     public function bcpd()
     {
         $evaluacion = new EvaluacionModel();
@@ -247,11 +220,9 @@ class EvaluacionController extends BaseController
 
     public function resultados()
     {
-        // Create an instance of the EvaluacionModel
         $evaluacionModel = new EvaluacionModel();
 
-        // Retrieve all records from the 'evaluaciones' table
-        $data['evaluaciones'] = $evaluacionModel->where('created_at >', '2023-11-01 00:00:00')->orderBy('profesor_id', 'asc')->findAll();
+        $data['evaluaciones'] = $evaluacionModel->where('created_at >', '2023-11-01')->orderBy('profesor_id', 'asc')->findAll();
 
         // Load the view and pass data to it
         return view('evaluacion/resultados', $data);
@@ -261,10 +232,7 @@ class EvaluacionController extends BaseController
 
     public function listaProfesores()
     {
-        // Create an instance of the ProfesorModel
         $profesorModel = new ProfesorModel();
-
-        // Retrieve a list of professors
         $data['professors'] = $profesorModel->findAll();
 
         return view('evaluacion/listaProfesores', $data);
@@ -291,6 +259,7 @@ class EvaluacionController extends BaseController
             ->select('comentario')
             ->where('profesor_id', $profesorId)
             ->where('comentario !=', '')
+            ->where('created_at >', '2023-11-01')
             ->findAll();
 
         // Pass the professor's information and comments data to the view
@@ -462,6 +431,8 @@ class EvaluacionController extends BaseController
 
         return view('evaluacion/promedio', $data);
     }
+
+
 
 
     public function resultadosPorProfesor($profesorId)
@@ -756,6 +727,7 @@ class EvaluacionController extends BaseController
         // Retrieve evaluations for the specific professor
         $evaluations = $evaluacionModel
             ->where('profesor_id', $profesorId)
+            ->where('created_at >', '2023-11-01')
             ->findAll();
 
         // Specify the question indices for which you want to calculate averages
@@ -812,6 +784,9 @@ class EvaluacionController extends BaseController
     }
 
 
+
+
+
     public function average($profesorId)
     {
         // Create an instance of the EvaluacionModel and ProfesorModel
@@ -828,6 +803,7 @@ class EvaluacionController extends BaseController
         // Retrieve evaluations for the specific professor
         $evaluations = $evaluacionModel
             ->where('profesor_id', $profesorId)
+            ->where('created_at >', '2023-11-01')
             ->findAll();
 
         // Specify the question indices for which you want to calculate averages
@@ -1193,7 +1169,7 @@ class EvaluacionController extends BaseController
 
         $evaluacionModel = new EvaluacionModel();
         $profesorId = $teacherId; // Replace with the actual teacher's ID
-        $comments = $evaluacionModel->select('comentario')->where('profesor_id', $profesorId)->where('comentario !=', '')->findAll();
+        $comments = $evaluacionModel->select('comentario')->where('profesor_id', $profesorId)->where('comentario !=', '')->where('created_at > ', '"2023-11-01"')->findAll();
 
         $evaluaciones = $db->table('evaluacion')->where('profesor_id', $teacherId)->get()->getResultArray();
 
@@ -1612,15 +1588,12 @@ Unidad 212 Teziutlán", "Responsable de Evaluación\nCED. PROF.: 12513903 \n Fol
         }
 
 
-        // Configura los encabezados HTTP para mostrar el PDF en el navegador
         header('Content-Type: application/pdf');
-        // header('Content-Disposition: download'); // Cambia el nombre del archivo si es necesario
-
-        // Genera el PDF y envíalo al navegador
-        // $pdf->Output();
-        $pdf->Output('UPN212TEZ-RED-' . $teacher['nombre'] . '-' . $fecha_actual . '.pdf', 'D');
-        // $pdf->Output();
+        $pdf->Output('UPN212TEZ-RED-' . $teacher['nombre'] . '-' . $fecha_actual . '.pdf', 'I');
+        exit();
     }
+
+
 
 
     public function otropdf()
@@ -1754,7 +1727,8 @@ Unidad 212 Teziutlán", "Responsable de Evaluación\nCED. PROF.: 12513903 \n Fol
         }
 
         // Genera y muestra el PDF
-        $pdf->Output('Lista de docentes evaluados.pdf', 'D');
+        $pdf->Output('Lista de docentes evaluados.pdf', 'I');
+        exit();
 
 
         /*
